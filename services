@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroStudia | Our Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar" id="navbar"></header>
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-key="services_title">Our engineering services</h1>
+                <p data-key="services_subtitle">Comprehensive hydraulic solutions from studies to equipment</p>
+            </div>
+        </section>
+        <section class="services-detailed">
+            <div class="container">
+                <div class="service-block">
+                    <i class="fas fa-draw-polygon"></i>
+                    <div><h3 data-key="service1_title">Hydraulic studies</h3><p data-key="service1_long">We perform hydraulic modeling, drainage network design, irrigation schemes, water supply systems, and stormwater management. Deliverables include reports, CAD drawings, and bill of quantities.</p></div>
+                </div>
+                <div class="service-block">
+                    <i class="fas fa-chart-line"></i>
+                    <div><h3 data-key="service2_title">Project monitoring</h3><p data-key="service2_long">On-site supervision, quality assurance, progress reporting, and technical assistance to ensure your project meets specifications, budget, and timeline.</p></div>
+                </div>
+                <div class="service-block">
+                    <i class="fas fa-handshake"></i>
+                    <div><h3 data-key="service3_title">Consulting & Audit</h3><p data-key="service3_long">Diagnostic of existing networks, leak detection, efficiency optimization, and expert advice for public or private infrastructure.</p></div>
+                </div>
+                <div class="service-block">
+                    <i class="fas fa-truck-fast"></i>
+                    <div><h3 data-key="service4_title">Equipment supply</h3><p data-key="service4_long">Supply of high-quality pipes (HDPE, PVC), pumps, valves, fittings, and automation components with fast delivery across Algeria.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+    <a href="https://wa.me/213778335282" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <script src="js/main.js"></script>
+</body>
+</html>
